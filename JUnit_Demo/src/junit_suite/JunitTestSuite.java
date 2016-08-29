@@ -2,10 +2,9 @@ package junit_suite;
 
 import org.junit.runner.RunWith;
 import org.junit.runners.Suite;
-import org.junit.runners.Suite.SuiteClasses;
 
 @RunWith(Suite.class)
-@SuiteClasses(
+@Suite.SuiteClasses(
 { 
    JunitTest1.class, 
    JunitTest2.class,
